@@ -1,8 +1,8 @@
 {
-    "title": "Tap quote, hold control",
+    "title": "Hold quote for left control",
     "rules": [
         {
-            "description": "Quote when tapped, control when held.",
+            "description": "Quote when tapped, left control when held.",
             "manipulators": [
                 {
                     "type": "basic",

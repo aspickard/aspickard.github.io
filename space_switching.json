@@ -1,8 +1,8 @@
 {
-    "title": "Easy space switching.",
+    "title": "Tap CMD for OS X space switching",
     "rules": [
         {
-            "description": "Right command to control when held, spaces right when tapped.",
+            "description": "Right command is control when held, space right when tapped.",
             "manipulators": [
                 {
                     "type": "basic",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "description": "Left command to spaces left when tapped.",
+            "description": "Left CMD is space left when tapped.",
             "manipulators": [
                 {
                     "type": "basic",

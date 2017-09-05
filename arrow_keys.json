@@ -1,5 +1,5 @@
 {
-    "title": "CAPS + jkli = arrow keys",
+    "title": "Hold caps for right_command, tap i/j/k/l for arrow keys, u/m for page_up/page_down, and y/n for home/end",
     "rules": [
         {
             "description": "Change caps_lock to right_command when pressed with other keys (post tab when pressed alone).",
@@ -18,7 +18,7 @@
             ]
         },
         {
-            "description": "Change right_command + jkli to arrow keys.",
+            "description": "Change right_command + ijkl to arrow keys.",
             "manipulators": [
                 {
                     "type": "basic",
@@ -63,17 +63,60 @@
                         }
                     },
                     "to": [{"key_code": "right_arrow"}]
-                },
+                }
+            ]
+        },
+        {
+            "description": "Change right_command + u/m to page_up/page_down.",
+            "manipulators": [
                 {
                     "type": "basic",
                     "from": {
-                        "key_code": "s",
+                        "key_code": "u",
                         "modifiers": {
                             "mandatory": ["right_command"],
                             "optional": ["any"]
                         }
                     },
-                    "to": [{"key_code": "left_arrow"}]
+                    "to": [{"key_code": "page_up"}]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "m",
+                        "modifiers": {
+                            "mandatory": ["right_command"],
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [{"key_code": "page_down"}]
+                }
+            ]
+        },
+        {
+            "description": "Change right_command + y/n to home/end.",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "y",
+                        "modifiers": {
+                            "mandatory": ["right_command"],
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [{"key_code": "home"}]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "n",
+                        "modifiers": {
+                            "mandatory": ["right_command"],
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [{"key_code": "end"}]
                 }
             ]
         }
