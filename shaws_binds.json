@@ -108,7 +108,7 @@
                     "to_if_alone": [
                             {
                                     "key_code": "right_arrow",
-                                    "modifiers": ["left_control']
+                                    "modifiers": ["left_control"]
                             }
                     ]
                 }
@@ -129,7 +129,7 @@
                     "to_if_alone": [
                             {
                                     "key_code": "left_arrow",
-                                    "modifiers": ["left_control']
+                                    "modifiers": ["left_control"]
                             }
                     ]
                 }
