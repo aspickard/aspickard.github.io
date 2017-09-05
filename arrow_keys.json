@@ -2,7 +2,7 @@
     "title": "CAPS+hjkl Mode",
     "rules": [
         {
-            "description": "Change caps_lock to left_command when pressed with other keys (post escape when pressed alone).",
+            "description": "Change caps_lock to left_command when pressed with other keys (post tab when pressed alone).",
             "manipulators": [
                 {
                     "type": "basic",
