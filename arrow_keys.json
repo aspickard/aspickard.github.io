@@ -1,5 +1,5 @@
 {
-    "title": "CAPS+hjkl Mode",
+    "title": "CAPS + jkli = arrow keys",
     "rules": [
         {
             "description": "Change caps_lock to right_command when pressed with other keys (post tab when pressed alone).",
@@ -18,7 +18,7 @@
             ]
         },
         {
-            "description": "Change right_command+hjkl to arrow keys.",
+            "description": "Change right_command + jkli to arrow keys.",
             "manipulators": [
                 {
                     "type": "basic",
@@ -63,6 +63,17 @@
                         }
                     },
                     "to": [{"key_code": "right_arrow"}]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "s",
+                        "modifiers": {
+                            "mandatory": ["right_command"],
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [{"key_code": "left_arrow"}]
                 }
             ]
         }
