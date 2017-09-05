@@ -2,7 +2,7 @@
     "title": "CAPS+hjkl Mode",
     "rules": [
         {
-            "description": "Change caps_lock to left_command when pressed with other keys (post tab when pressed alone).",
+            "description": "Change caps_lock to right_command when pressed with other keys (post tab when pressed alone).",
             "manipulators": [
                 {
                     "type": "basic",
@@ -12,20 +12,20 @@
                             "optional": ["any"]
                         }
                     },
-                    "to": [{"key_code": "left_command"}],
+                    "to": [{"key_code": "right_command"}],
                     "to_if_alone": [{"key_code": "tab"}]
                 }
             ]
         },
         {
-            "description": "Change left_command+hjkl to arrow keys.",
+            "description": "Change right_command+hjkl to arrow keys.",
             "manipulators": [
                 {
                     "type": "basic",
                     "from": {
                         "key_code": "n",
                         "modifiers": {
-                            "mandatory": ["left_command"],
+                            "mandatory": ["right_command"],
                             "optional": ["any"]
                         }
                     },
@@ -36,7 +36,7 @@
                     "from": {
                         "key_code": "e",
                         "modifiers": {
-                            "mandatory": ["left_command"],
+                            "mandatory": ["right_command"],
                             "optional": ["any"]
                         }
                     },
@@ -47,7 +47,7 @@
                     "from": {
                         "key_code": "i",
                         "modifiers": {
-                            "mandatory": ["left_command"],
+                            "mandatory": ["right_command"],
                             "optional": ["any"]
                         }
                     },
@@ -58,7 +58,7 @@
                     "from": {
                         "key_code": "o",
                         "modifiers": {
-                            "mandatory": ["left_command"],
+                            "mandatory": ["right_command"],
                             "optional": ["any"]
                         }
                     },
