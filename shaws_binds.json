@@ -97,7 +97,7 @@
             "description": "Right command to control when held, spaces right when tapped.",
             "manipulators": [
                 {
-                    "type": "basic",
+                    "type": "complex",
                     "from": {
                         "key_code": "right_command",
                         "modifiers": {
@@ -118,7 +118,7 @@
             "description": "Left command to spaces left when tapped.",
             "manipulators": [
                 {
-                    "type": "basic",
+                    "type": "complex",
                     "from": {
                         "key_code": "left_command",
                         "modifiers": {
