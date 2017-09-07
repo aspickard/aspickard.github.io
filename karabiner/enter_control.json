@@ -1,0 +1,21 @@
+{
+    "title": "Hold enter_or_return for left control",
+    "rules": [
+        {
+            "description": "Enter or return when tapped, left control when held.",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "enter_or_return",
+                        "modifiers": {
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [{"key_code": "left_control"}],
+                    "to_if_alone": [{"key_code": "enter_or_return"}]
+                }
+            ]
+        }
+    ]
+}
