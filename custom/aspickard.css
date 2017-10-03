@@ -8,7 +8,8 @@ mango tango: rgba(255, 144, 66, 1);*/
 
 
 body {
-	background-color: #ff9042;
+	background-image: url('./custom/background.jpg');
+	background-size: cover;
 }
 
 .main-content {
