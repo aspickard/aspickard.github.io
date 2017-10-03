@@ -20,6 +20,8 @@ mango tango: rgba(255, 144, 66, 1);*/
 
 .link {
 	font-size: 30px;
+	color: #33312e;
+	text-decoration: none;
 }
 
 .avatar {
