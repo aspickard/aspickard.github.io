@@ -7,7 +7,7 @@ white smoke: rgba(245, 245, 245, 1);
 mango tango: rgba(255, 144, 66, 1);*/
 
 
-body {
+.page {
 	background-image: url('custom/background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
