@@ -103,3 +103,4 @@ ENV/
 *.un~
 *.swp
 *.swo
+*.DS_Store
