@@ -23,7 +23,7 @@
             ]
         },
         {
-            "description": "Left CMD is space left when tapped.",
+            "description": "Left CMD is right command when held, space left when tapped.",
             "manipulators": [
                 {
                     "type": "basic",
