@@ -195,7 +195,7 @@
       ]
     },
     {
-      "description": "Change right_command + delete backslash enter shift to media control",
+      "description": "Change right_command + hypen equal delete and brackets to media control",
       "manipulators": [
         {
           "type": "basic",
@@ -219,7 +219,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "backslash",
+            "key_code": "open_bracket",
             "modifiers": {
               "mandatory": [
                 "right_command"
@@ -231,14 +231,33 @@
           },
           "to": [
             {
-              "key_code": "volume_increment"
+              "key_code": "rewind"
             }
           ]
         },
         {
           "type": "basic",
           "from": {
-            "key_code": "return_or_enter",
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "fastforward"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "hyphen",
             "modifiers": {
               "mandatory": [
                 "right_command"
@@ -269,7 +288,7 @@
           },
           "to": [
             {
-              "key_code": "fastforward"
+              "key_code": "volume_increment"
             }
           ]
         }
