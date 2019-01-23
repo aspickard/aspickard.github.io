@@ -195,15 +195,15 @@
       ]
     },
     {
-      "description": "Change right_command + delete \ enter shift to media control",
+      "description": "Change right_command + delete backslash enter shift to media control",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "\",
+            "key_code": "delete_or_backspace",
             "modifiers": {
               "mandatory": [
-                "delete_or_backspace"
+                "right_command"
               ],
               "optional": [
                 "any"
@@ -219,7 +219,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "\",
+            "key_code": "backslash",
             "modifiers": {
               "mandatory": [
                 "right_command"
