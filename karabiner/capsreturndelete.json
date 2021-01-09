@@ -1,0 +1,31 @@
+{
+  "title": "Capslock + return = backspace",
+  "rules": [
+    {
+      "description": "Capslock + return = backspace.",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "enter",
+            "modifiers": {
+              "mandatory": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backspasce"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "caps_lock"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
