@@ -7,7 +7,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "enter",
+            "key_code": "return_or_enter",
             "modifiers": {
               "mandatory": [
                 "caps_lock"
@@ -16,7 +16,7 @@
           },
           "to": [
             {
-              "key_code": "backspasce"
+              "key_code": "backspace"
             }
           ],
           "to_if_alone": [
