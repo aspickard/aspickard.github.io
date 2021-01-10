@@ -1,0 +1,26 @@
+{
+  "title": "Hold up for shift, tap for up.",
+  "rules": [
+    {
+      "description": "Hold up for shift, tap for up.",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "up_arrow"
+          },
+          "to": [
+            {
+              "key_code": "right_shift"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "up_arrow"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
