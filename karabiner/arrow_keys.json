@@ -28,7 +28,7 @@
       ]
     },
     {
-      "description": "Capslock + return = backspace.",
+      "description": "Change right_command + return = backspace.",
       "manipulators": [
         {
           "type": "basic",
