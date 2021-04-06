@@ -1,0 +1,49 @@
+{
+    "title": "Tap CMD for OS X space switching",
+    "rules": [
+        {
+            "description": "Right command is control when held, space right when tapped (no repeat).",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "right_command",
+                        "modifiers": {
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [{"key_code": "left_control"}],
+                    "to_if_alone": [
+                            {
+                                    "key_code": "right_arrow",
+                                    "modifiers": ["left_control"],
+                                    "repeat": false
+                            }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Left CMD is space left when tapped (no repeat).",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "left_command",
+                        "modifiers": {
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [{"key_code": "left_command"}],
+                    "to_if_alone": [
+                            {
+                                    "key_code": "left_arrow",
+                                    "modifiers": ["left_control"],
+                                    "repeat": false
+                            }
+                    ]
+                }
+            ]
+        }
+    ]
+}
