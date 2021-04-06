@@ -12,12 +12,11 @@
                             "optional": ["any"]
                         }
                     },
-                    "to": [{"key_code": "left_control"}],
+                    "to": [{"key_code": "left_control", "repeat": false}],
                     "to_if_alone": [
                             {
                                     "key_code": "right_arrow",
-                                    "modifiers": ["left_control"],
-                                    "repeat": false
+                                    "modifiers": ["left_control"]
                             }
                     ]
                 }
@@ -34,12 +33,11 @@
                             "optional": ["any"]
                         }
                     },
-                    "to": [{"key_code": "left_command"}],
+                    "to": [{"key_code": "left_command", "repeat": false}],
                     "to_if_alone": [
                             {
                                     "key_code": "left_arrow",
-                                    "modifiers": ["left_control"],
-                                    "repeat": false
+                                    "modifiers": ["left_control"]
                             }
                     ]
                 }
